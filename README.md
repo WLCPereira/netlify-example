@@ -10,7 +10,7 @@ Follow the steps:
     [build]
         base = "/"
         publish = "build/"
-    [context.master] ## branch master
+    [context.main] ## branch main
         command = "npm run build"
     [[redirects]]
         from="/*"
@@ -21,6 +21,9 @@ Follow the steps:
 
 - Go to netlify site, then create a new site from git:
 ![crete_new_site](./docs/netlify_new-site.png)
+
 - Choose your prefered repository host:
 ![choose_your_repo_host](./docs/netlify_choose_repo.png)
-- Choose the project and branch that you want to deploy:
+
+- Choose the project and branch that you want to deploy, then click in `Deploy site`:
+![choose_your_project_banch](./docs/netlify_choose_project.png)
